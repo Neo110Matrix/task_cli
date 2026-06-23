@@ -1,0 +1,27 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+
+[project]
+name = "task-cli"
+version = "1.0.0"
+authors = [
+		{ name ="Arjun", email = "arjunjayakumar371@gmail.com" } 
+		]		
+description = "Task manager using cli(Command-Line-Interface)"
+readme = "README.md"
+requires-python = ">=3.10"
+classifiers = [
+		"Programming Language :: Python :: 3",
+		"Operating System :: OS Independent"
+	]
+#license=""
+
+[project.scripts]
+task-cli ="main:main"
+
+
+[project-urls]
+
+
