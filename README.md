@@ -124,16 +124,16 @@ json
 
 ## Project Structure
 
-task-cli/
-│
-├── main.py
-├── pyproject.toml
-├── README.md
-│
-└── task_manager/
-    ├── __init__.py
-    ├── task_service.py
-    └── task.json
+task-cli/    
+│    
+├── main.py    
+├── pyproject.toml    
+├── README.md    
+│                   
+└── task_manager/    
+            ├── __init__.py       
+            ├── task_service.py            
+            └── task.json            
 
 
 ## Technologies Used
