@@ -1,8 +1,6 @@
 import sys
 from task_manager.task_service import add, update, delete, task_list, mark_in_progress, done, todo, in_progress
  
- #first arg from command (add, update, delete)
-
 def main():
     command = sys.argv[1]
     #for adding an new task
